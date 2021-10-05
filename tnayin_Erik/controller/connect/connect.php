@@ -1,5 +1,5 @@
 <?php
-namespace controller\connect;
+namespace controller\connect\DatabaseConnect;
 
 use PDO;
 use PDOException;
@@ -35,6 +35,5 @@ class DatabaseConnect
     }
 }
 $con = new DatabaseConnect();
-echo $con->getUsername();
 
 ?>
