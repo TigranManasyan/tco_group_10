@@ -37,7 +37,7 @@
                 <input type="password" class="form-control" id="password" name="password__reg">
             </div>
 
-            <div class="btns d-flex justify-content-around">
+            <div class="btn d-flex justify-content-around">
                 <input type="submit" class="btn btn-primary" value="Regist">
             </div>
 

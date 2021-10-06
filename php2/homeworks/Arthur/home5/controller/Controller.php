@@ -17,8 +17,8 @@ class Controller
         $newAge = (strtotime("now") - strtotime($_POST['age']))/$year;
         $result = (int)$newAge;
 
-        $sql = "INSERT INTO `regTable`(`name`, `email`, `password`, `age`) 
-                                            VALUES 
+        $sql = "INSERT INTO `regTable`(`name`, `email`, `password`, `age`)
+                                            VALUES
                                             ('$name','$email','$password','$result')";
         $query = $this->conn->prepare($sql);
         $query->execute();
