@@ -1,6 +1,5 @@
 <?php
     $text = strtoupper('Lorem ipsum dolor sit amet, asdas consectetur adipisicing elit. Nihil, officia?');
-    $regex = ;
         $arr = explode(' ', $text);
         echo '<pre>';
         asort($arr);
@@ -9,6 +8,6 @@
             echo "$value" . '<br>';
         }
 
-    ?>
+?>
 
 
