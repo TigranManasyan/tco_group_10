@@ -11,7 +11,7 @@
     <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectId" id="1z5YBAyxzTY8oYDVz1UZxCVztVn" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -23,7 +23,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Homeworks/Erik" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../homeworks/Erik_lesson_10" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -35,6 +35,10 @@
       <option name="presentableId" value="Default" />
       <updated>1633439278238</updated>
       <workItem from="1633439279987" duration="23000" />
+      <workItem from="1634016075304" duration="72000" />
+      <workItem from="1634016246481" duration="282000" />
+      <workItem from="1634016887758" duration="454000" />
+      <workItem from="1634017411525" duration="7000" />
     </task>
     <servers />
   </component>
