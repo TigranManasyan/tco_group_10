@@ -33,8 +33,22 @@
     </style>
 </head>
 <body>
+
     <div class="pagination"></div>
-<div class="table-data">
+
+    <div class="selDiv">
+
+        <select name="select" id="sel">
+            <?php
+            $limit = 5;
+            for ($i=$limit; $i<=20; $i++){?>
+            <option class="selOpt" value="<?= $i;?>"><?= $i;}?></option>
+        </select>
+
+
+    </div>
+
+    <div class="table-data">
     <table border="1" bordercolor="aqua" cellspacing="0" cellpadding="10">
         <thead>
             <tr>

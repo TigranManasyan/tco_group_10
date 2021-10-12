@@ -4,7 +4,7 @@ jQuery(document).ready(function($) {
         for(let i = 1; i <= dataPages; i++) {
             $('.pagination').append(`<a href="#">${i}</a>`);
         }
-        $('.pagination>a').eq(0).addClass('active');
+        $(' .pagination>a').eq(0).addClass('active');
 
         $('.pagination>a').on("click", function(e) {
             e.preventDefault();
@@ -48,6 +48,7 @@ jQuery(document).ready(function($) {
         }
     });
 
+
     $.ajax({
         url:'server.php',
         method:'get',
@@ -57,6 +58,16 @@ jQuery(document).ready(function($) {
             printCategories(data)
         }
     });
+  $(".selOpt").on("click",function (){
+    $.ajax({
+        url:'new.php',
+        method:'post',
+        data:{ "select" : $('#sel').val()},
+
+        })
+
+    });
+
 
 
 });
