@@ -58,14 +58,16 @@ jQuery(document).ready(function($) {
             printCategories(data)
         }
     });
-  $(".selOpt").on("click",function (){
-    $.ajax({
-        url:'new.php',
-        method:'post',
-        data:{ "select" : $('#sel').val()},
-
-        })
-
+  $("#sel").on("change", function (){
+      let limit = $(this).val();
+      $.ajax({
+          url:'update_limit.php',
+          method:'post',
+          data:{limit},
+          success:function() {
+              location.reload()
+          }
+      });
     });
 
 

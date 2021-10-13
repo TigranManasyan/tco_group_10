@@ -1,12 +1,14 @@
 <?php
     require './db.php';
-//    require './new.php';
-    $page = $_GET['page'];
+    require './new.php';
+    $page = 1;
+        if(isset($_GET['page']) && $_GET['page'] > 0) {
+            $page = $_GET['page'];
+        }
 
-    $limit =5;
-    $limit= $_POST['select'];
-//    $page = ($page - 1) * $limit;
-    $sql = "SELECT * FROM `categories` LIMIT $page, $limit ";
+
+    $page = ($page - 1) * $limit_num;
+    $sql = "SELECT * FROM `categories` LIMIT $page, $limit_num ";
      $result = mysqli_query($conn, $sql) ;
     echo json_encode(mysqli_fetch_all($result, MYSQLI_ASSOC));
 

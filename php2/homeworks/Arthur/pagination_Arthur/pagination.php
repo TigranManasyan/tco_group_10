@@ -1,11 +1,10 @@
 <?php
     require './db.php';
-//    require './new.php';
+    require './new.php';
 
     $sql = 'SELECT * FROM `categories`';
     $result = mysqli_query($conn, $sql);
     $count_posts = mysqli_num_rows($result);
-    $limit = 5;
-    $count_pages = ($count_posts/$limit);
+    $count_pages = ($count_posts/$limit_num);
     echo ceil($count_pages);
 

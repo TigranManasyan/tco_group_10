@@ -39,6 +39,7 @@
     <div class="selDiv">
 
         <select name="select" id="sel">
+            <option selected disabled>--Select Limit--</option>
             <?php
             $limit = 5;
             for ($i=$limit; $i<=20; $i++){?>
