@@ -14,7 +14,7 @@
 <form action="./../controller/login.php" method="post">
     <div class="mb-3">
         <label for="login" class="form-label">Login</label>
-        <input type="text" class="form-control" id="login" name="login">
+        <input type="text" class="form-control" id="login" name="login" >
 
     </div>
     <div class="mb-3">
